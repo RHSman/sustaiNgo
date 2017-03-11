@@ -66,3 +66,4 @@ target/
 # Terraform
 .terraform/
 .credentials
+*.scrapy
