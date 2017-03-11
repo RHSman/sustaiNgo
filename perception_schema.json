@@ -1,0 +1,50 @@
+{
+    "type": "object",
+    "title": "perception schema",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "required": ["id"],
+    "properties": {
+        "id": {
+            "type": ["integer", "null"],
+            "_db_settings": {
+                "type": "id_field",
+                "required": true,
+                "primary_key": true
+            }
+        },
+        "brand_id": {
+            "type": "integer",
+            "_db_settings": {
+                "type": "integer",
+                "required": true
+            }
+        },
+        "user_id": {
+            "type": "integer",
+            "_db_settings": {
+                "type": "integer"
+            }
+        },
+        "perception_score": {
+            "type": "integer",
+            "_db_settings": {
+                "type": "integer",
+                "required": true
+            }
+        },
+        "perception_text": {
+            "type": "string",
+            "_db_settings": {
+                "type": "text",
+                "required": false
+            }
+        },
+        "date_added": {
+            "type": "datetime",
+            "_db_settings": {
+                "type": "datetime",
+                "required": true
+            }
+        }
+    }
+}

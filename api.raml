@@ -1,0 +1,53 @@
+#%RAML 0.8
+---
+title: sustaingo API
+documentation:
+    - title: sustaingo REST API
+      content: Awesome stuff from scraping
+        Welcome to the sustaingo API.
+baseUri: http://{host}:{port}/{version}
+version: v1
+mediaType: application/json
+protocols: [HTTP]
+
+/brands:
+    displayName: Collection of brands
+    get:
+        description: Get all brands
+    post:
+        description: Create a new brand
+        body:
+            application/json:
+                schema: !include brand.json
+    get:
+        description: Get all brands
+
+    /{id}:
+        displayName: Collection-brand
+        get:
+            description: Get a particular brand
+        delete:
+            description: Delete a particular brand
+        patch:
+            description: Update a particular brand
+
+/perception:
+    displayName: Collection of perception
+    get:
+        description: Get all perceptions
+    post:
+        description: Create a new perception
+        body:
+            application/json:
+                schema: !include perception_schema.json
+    delete:
+        description: Get all perceptions
+
+    /{id}:
+        displayName: Collection-perception
+        get:
+            description: Get a particular perception
+        delete:
+            description: Delete a particular perception
+        patch:
+            description: Update a particular perception

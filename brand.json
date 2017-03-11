@@ -1,0 +1,50 @@
+{
+    "type": "object",
+    "title": "brand schema",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "required": ["id", "name"],
+    "properties": {
+        "id": {
+            "type": ["integer", "null"],
+            "_db_settings": {
+                "type": "id_field",
+                "required": true,
+                "primary_key": true
+            }
+        },
+        "name": {
+            "type": "string",
+            "_db_settings": {
+                "type": "string",
+                "required": true
+            }
+        },
+        "description": {
+            "type": ["string", "null"],
+            "_db_settings": {
+                "type": "text"
+            }
+        },
+        "perception_score": {
+            "type": "integer",
+            "_db_settings": {
+                "type": "integer",
+                "required": false
+            }
+        },
+        "brand_measurement_number": {
+            "type": "integer",
+            "_db_settings": {
+                "type": "integer",
+                "required": false
+            }
+        },
+        "brand_measurement_text": {
+            "type": "string",
+            "_db_settings": {
+                "type": "text",
+                "required": false
+            }
+        }
+    }
+}
