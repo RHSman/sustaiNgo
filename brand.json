@@ -25,13 +25,6 @@
                 "type": "text"
             }
         },
-        "perception_score": {
-            "type": "integer",
-            "_db_settings": {
-                "type": "integer",
-                "required": false
-            }
-        },
         "brand_measurement_number": {
             "type": "integer",
             "_db_settings": {
@@ -39,7 +32,21 @@
                 "required": false
             }
         },
+        "score_multiplier": {
+            "type": "integer",
+            "_db_settings": {
+                "type": "integer",
+                "required": false
+            }
+        },
         "brand_measurement_text": {
+            "type": "string",
+            "_db_settings": {
+                "type": "text",
+                "required": false
+            }
+        },
+        "category": {
             "type": "string",
             "_db_settings": {
                 "type": "text",

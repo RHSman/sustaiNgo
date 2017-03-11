@@ -12,6 +12,8 @@ class JsonWriterPipeline(object):
         self.file = open('brands.jl', 'wb')
 
     def process_item(self, item, spider):
-        line = json.dumps(dict(item)) + "\n"
-        self.file.write(line)
-        return item
+
+        line = json.dumps(dict(item), indent=4)
+        print >> self.file, line + ","
+
+
