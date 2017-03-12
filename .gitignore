@@ -68,3 +68,4 @@ target/
 .credentials
 *.scrapy
 /bin/
+/webapp/node_modules/

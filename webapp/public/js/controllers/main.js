@@ -32,6 +32,9 @@ angular.module('QCController', [])
                 size: "lg",
             });
     };
+    $scope.reload = function (){
+        $route.reload();
+    };
 
 }])
 .controller('ModalInstanceCtrl', [ '$scope', '$rootScope', '$uibModalInstance', function ($scope, $rootScope, $uibModalInstance) {
