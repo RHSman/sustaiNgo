@@ -8,6 +8,7 @@
     "express"         : "~4.13.4",
     "body-parser"     : "~1.4.3",
     "morgan"          : "~1.7.0",
+    "angular-chart.js": "~1.1.1",
     "method-override" : "~2.1.1"
   }
 }
