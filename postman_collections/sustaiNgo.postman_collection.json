@@ -1,0 +1,35 @@
+{
+	"id": "398bb8f1-6778-a092-7f59-529fbcc9ac53",
+	"name": "sustaiNgo",
+	"description": "",
+	"order": [
+		"e3c428d5-cc05-4769-acf0-31d02792b429"
+	],
+	"folders": [],
+	"timestamp": 1489254396622,
+	"owner": "379623",
+	"public": false,
+	"requests": [
+		{
+			"id": "e3c428d5-cc05-4769-acf0-31d02792b429",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://127.0.0.1:6543/api/brands",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "398bb8f1-6778-a092-7f59-529fbcc9ac53",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Brands Post",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1489254396622,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"name\": \"zara\", \"description\": \"ladies clothing\", \"perception_score\": 40, \"brand_measurement_number\": \"5\", \n\"brand_measurement_text\": \"fairtrade\"\n}"
+		}
+	]
+}
