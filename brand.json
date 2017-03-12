@@ -47,9 +47,10 @@
             }
         },
         "category": {
-            "type": "string",
+            "type": "list",
             "_db_settings": {
-                "type": "text",
+                "type": "list",
+                "item_type": "string",
                 "required": false
             }
         }

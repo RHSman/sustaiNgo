@@ -1,4 +1,4 @@
-[{
+{
     "category": [
         "organic cotton"
     ], 
@@ -6,25 +6,6 @@
     "score_multiplier": 0, 
     "name": "absolution saves", 
     "description": "absolution saves produces handprinted t-shirts, homewares and greetings cards in the uk using organic cotton, bamboo, and recycled materials."
-},
-{
-    "category": [
-        "organic cotton", 
-        "sustainable fabrics"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "bodyrock", 
-    "description": "bodyrock offers recycled accessories with organic cotton and hemp clothing and skincare products."
-},
-{
-    "category": [
-        "organic cotton"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "bobelle", 
-    "description": "bobelle offers organic babywear, jewellery with recycled elements, natural toiletries and homewares, all produced under fair trade conditions."
 },
 {
     "category": [
@@ -114,40 +95,31 @@
 },
 {
     "category": [
-        "recycled", 
-        "made in the uk"
+        "recycled"
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "hetty rose", 
-    "description": "reusing vintage fabrics such as japanese kimonos, hetty rose's stylish shoes are all handmade to order."
+    "name": "beaucoco", 
+    "description": "jewellery, hand made from discarded materials and sterling silver, and bags made from recycled plastic bags."
 },
 {
     "category": [
-        "unspecified"
+        "sustainable fabrics"
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "nui organics", 
-    "description": "nui organics products are available in stores worldwide. their products are made in new zealand."
+    "name": "bamboo baby", 
+    "description": "focusing on babies clothes, bamboo baby also offers a range of womenswear, all in bamboo."
 },
 {
     "category": [
-        "unspecified"
+        "fair trade", 
+        "recycled"
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "nomads", 
-    "description": "nomads offer organic and fair trade clothing for women, men and children, and also have a selection of jewellery, shoes and accessories."
-},
-{
-    "category": [
-        "made in the uk"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "nixie clothing", 
-    "description": "stylish bohemian childrenswear made in london from vintage fabrics."
+    "name": "hatti trading", 
+    "description": "hatti trading works with producer groups in nepal to create a range of bags, jewellery and accessories."
 },
 {
     "category": [
@@ -160,12 +132,41 @@
 },
 {
     "category": [
+        "unspecified"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "the natural store", 
+    "description": "from high-end fashion to everyday wear and everything in between, the natural store offers clothing, shoes and accessories for all ages. it also stocks many toiletries, travel items and homewares."
+},
+{
+    "category": [
+        "vegan materials", 
+        "sustainable fabrics"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "the natural shoe store", 
+    "description": "long-established in london and now online, the natural shoe store offers footwear in sustainable materials."
+},
+{
+    "category": [
+        "unspecified"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "natural collection", 
+    "description": "three time winner of the observer ethical award for online retailer of the year, natural collection offers a wide variety of organic, fair trade and sustainable fashion alongside homewares, toiletries and much more."
+},
+{
+    "category": [
+        "fair trade", 
         "organic cotton"
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "ruby", 
-    "description": "fashion-conscious organic cotton jeans for women."
+    "name": "purity", 
+    "description": "purity is a women's and children's organic and fair trade clothing boutique based in farnham, surrey. they also have an online presence. they sell accessories, beauty products and gifts as well as clothing."
 },
 {
     "category": [
@@ -174,8 +175,8 @@
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "romp", 
-    "description": "romp's fashion-conscious womenswear and accessories are made using sustainable materials, including organic cotton."
+    "name": "properganda", 
+    "description": "slogan t-shirts for adults, with a selection in organic cotton and hemp."
 },
 {
     "category": [
@@ -183,8 +184,17 @@
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "rococo", 
-    "description": "an ethical fashion boutique in london stocking people tree's designer collection, house of tamman, enamore and life amongst other labels. the boutique also runs an ethical style sourcing service. see website for opening hours."
+    "name": "plain lazy", 
+    "description": "plain lazy's relaxed skatewear range for all ages contains elements of fair trade and organic cotton."
+},
+{
+    "category": [
+        "recycled"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "plaastique bague", 
+    "description": "plaastique bague uses plastic carrier bags to create its range of bags in various sizes."
 },
 {
     "category": [
@@ -212,17 +222,6 @@
     "score_multiplier": 0, 
     "name": "tatty bumpkin", 
     "description": "tatty bumpkin's range focuses on organic cotton childrenswear, and also contains casualwear and pyjamas for women."
-},
-{
-    "category": [
-        "fair trade", 
-        "organic cotton", 
-        "sustainable fabrics"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "tammam", 
-    "description": "using fair trade organic cotton and bamboo, tammam's range of stylish high end womenswear includes a bespoke service for special items such as wedding dresses."
 },
 {
     "category": [
@@ -449,6 +448,17 @@
     "score_multiplier": 0, 
     "name": "terramar", 
     "description": "organic and fair trade clothing and accessories for adults and children."
+},
+{
+    "category": [
+        "fair trade", 
+        "organic cotton", 
+        "sustainable fabrics"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "tammam", 
+    "description": "using fair trade organic cotton and bamboo, tammam's range of stylish high end womenswear includes a bespoke service for special items such as wedding dresses."
 },
 {
     "category": [
@@ -693,6 +703,34 @@
 },
 {
     "category": [
+        "organic cotton"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "ruby", 
+    "description": "fashion-conscious organic cotton jeans for women."
+},
+{
+    "category": [
+        "organic cotton", 
+        "sustainable fabrics"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "romp", 
+    "description": "romp's fashion-conscious womenswear and accessories are made using sustainable materials, including organic cotton."
+},
+{
+    "category": [
+        "unspecified"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "rococo", 
+    "description": "an ethical fashion boutique in london stocking people tree's designer collection, house of tamman, enamore and life amongst other labels. the boutique also runs an ethical style sourcing service. see website for opening hours."
+},
+{
+    "category": [
         "fair trade"
     ], 
     "score": 0, 
@@ -746,44 +784,6 @@
     "score_multiplier": 0, 
     "name": "quail", 
     "description": "quail uses organic cotton and silk to create its range of elegant uk-made womenswear."
-},
-{
-    "category": [
-        "fair trade", 
-        "organic cotton"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "purity", 
-    "description": "purity is a women's and children's organic and fair trade clothing boutique based in farnham, surrey. they also have an online presence. they sell accessories, beauty products and gifts as well as clothing."
-},
-{
-    "category": [
-        "organic cotton", 
-        "sustainable fabrics"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "properganda", 
-    "description": "slogan t-shirts for adults, with a selection in organic cotton and hemp."
-},
-{
-    "category": [
-        "unspecified"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "plain lazy", 
-    "description": "plain lazy's relaxed skatewear range for all ages contains elements of fair trade and organic cotton."
-},
-{
-    "category": [
-        "recycled"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "plaastique bague", 
-    "description": "plaastique bague uses plastic carrier bags to create its range of bags in various sizes."
 },
 {
     "category": [
@@ -969,18 +969,8 @@
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "the natural store", 
-    "description": "from high-end fashion to everyday wear and everything in between, the natural store offers clothing, shoes and accessories for all ages. it also stocks many toiletries, travel items and homewares."
-},
-{
-    "category": [
-        "vegan materials", 
-        "sustainable fabrics"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "the natural shoe store", 
-    "description": "long-established in london and now online, the natural shoe store offers footwear in sustainable materials."
+    "name": "nui organics", 
+    "description": "nui organics products are available in stores worldwide. their products are made in new zealand."
 },
 {
     "category": [
@@ -988,8 +978,17 @@
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "natural collection", 
-    "description": "three time winner of the observer ethical award for online retailer of the year, natural collection offers a wide variety of organic, fair trade and sustainable fashion alongside homewares, toiletries and much more."
+    "name": "nomads", 
+    "description": "nomads offer organic and fair trade clothing for women, men and children, and also have a selection of jewellery, shoes and accessories."
+},
+{
+    "category": [
+        "made in the uk"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "nixie clothing", 
+    "description": "stylish bohemian childrenswear made in london from vintage fabrics."
 },
 {
     "category": [
@@ -1443,6 +1442,16 @@
 },
 {
     "category": [
+        "recycled", 
+        "made in the uk"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "hetty rose", 
+    "description": "reusing vintage fabrics such as japanese kimonos, hetty rose's stylish shoes are all handmade to order."
+},
+{
+    "category": [
         "organic cotton"
     ], 
     "score": 0, 
@@ -1468,16 +1477,6 @@
     "score_multiplier": 0, 
     "name": "the hebridean woolhouse", 
     "description": "the hebridean woolhouse produces knitwear, tweeds and yarns from the undyed wool produced by the hebridean sheep on their perthshire farm."
-},
-{
-    "category": [
-        "fair trade", 
-        "recycled"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "hatti trading", 
-    "description": "hatti trading works with producer groups in nepal to create a range of bags, jewellery and accessories."
 },
 {
     "category": [
@@ -1553,15 +1552,6 @@
     "score_multiplier": 0, 
     "name": "green eyed monster", 
     "description": " t-shirts, jeans, dresses and knitwear for children and babies."
-},
-{
-    "category": [
-        "unspecified"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "green baby", 
-    "description": null
 },
 {
     "category": [
@@ -2278,21 +2268,22 @@
 },
 {
     "category": [
-        "recycled"
-    ], 
-    "score": 0, 
-    "score_multiplier": 0, 
-    "name": "beaucoco", 
-    "description": "jewellery, hand made from discarded materials and sterling silver, and bags made from recycled plastic bags."
-},
-{
-    "category": [
+        "organic cotton", 
         "sustainable fabrics"
     ], 
     "score": 0, 
     "score_multiplier": 0, 
-    "name": "bamboo baby", 
-    "description": "focusing on babies clothes, bamboo baby also offers a range of womenswear, all in bamboo."
+    "name": "bodyrock", 
+    "description": "bodyrock offers recycled accessories with organic cotton and hemp clothing and skincare products."
+},
+{
+    "category": [
+        "organic cotton"
+    ], 
+    "score": 0, 
+    "score_multiplier": 0, 
+    "name": "bobelle", 
+    "description": "bobelle offers organic babywear, jewellery with recycled elements, natural toiletries and homewares, all produced under fair trade conditions."
 },
 {
     "category": [
@@ -2512,4 +2503,4 @@
     "score_multiplier": 0, 
     "name": "again nyc", 
     "description": "again nyc uses reclaimed and recycled materials to produce its stylish handbags and accessories."
-}]
+},

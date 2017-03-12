@@ -19,6 +19,7 @@ class GuardianScraper(Spider):
         name = response.xpath('//*[@id="article"]/header/div[1]/div/div/h1/text()').extract()
         description = response.xpath('//*[@id="article"]/div[2]/div/div[1]/div[5]/p[2]')
         _extended_des = None
+
         for p in description:
             if _extended_des is None:
                 _extended_des = parse_encode(p.xpath('text()').extract())
@@ -26,18 +27,21 @@ class GuardianScraper(Spider):
                 _extended_des = _extended_des + " " + parse_encode(p.xpath('text()').extract())
 
         print "...."
-        l = len(cat)
-        lastcat = cat[l-1].lower()
-        lastcat = parse_encode_nolist(lastcat)
-        if lastcat in ['organic cotton', 'recycled', 'vegan materials', 'made in the uk', 'sustainable fabrics', 'fair trade']:
-            category = lastcat
-        else:
-            category = 'unspecified'
-        cat_score = score_category(category)
+
+        cat_list = []
+        for l in cat:
+            l = parse_encode_nolist(l)
+            print l
+            if l in ['organic cotton', 'recycled', 'vegan materials', 'made in the uk', 'sustainable fabrics', 'fair trade']:
+                cat_list.append(l)
+
+        cat_score = 0
         base = 10
         score = base * cat_score
         print "-----"
+        if len(cat_list) == 0:
+            cat_list.append('unspecified')
         data = {"name": parse_encode_nolist(name[0].strip()), "description": _extended_des,
-                "category": category, "score_multiplier":cat_score,
+                "category": cat_list, "score_multiplier":cat_score,
                 "score": score}
         yield data
