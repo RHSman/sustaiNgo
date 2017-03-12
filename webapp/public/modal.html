@@ -1,0 +1,15 @@
+<div>
+    <script type="text/ng-template" id="myModalContent.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Details for brand {{$root.brandName}}</h3>
+    </div>
+    <div class="modal-body">
+        <canvas id="doughnut" class="chart chart-doughnut"
+        chart-data="data" chart-labels="labels">
+        </canvas> 
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="button" ng-click="ok()">Dismiss</button>
+    </div>
+    </script>
+</div>
