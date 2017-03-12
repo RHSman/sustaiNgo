@@ -67,3 +67,4 @@ target/
 .terraform/
 .credentials
 *.scrapy
+/bin/

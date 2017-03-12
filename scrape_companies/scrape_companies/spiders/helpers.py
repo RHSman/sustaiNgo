@@ -35,7 +35,8 @@ def load_data(file):
         "category": item['category'],
         "name": item['name'],
         "brand_measurement_number": item['score'],
-        "score_multiplier": item['score_multiplier']
+        "score_multiplier": item['score_multiplier'],
+        "description": item['description']
         }
         r = requests.post("http://127.0.0.1:6543/api/brands", json=dd)
         print r.status_code
