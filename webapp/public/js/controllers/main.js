@@ -7,6 +7,7 @@ angular.module('QCController', [])
     $scope.search = function(){
         server_operations.search_brand($rootScope.brandName)
         .success(function(data) {
+            console.log(data)
             $rootScope.showAll=true
             $rootScope.showAddOp=false;
         })
