@@ -9,9 +9,16 @@ angular.module('QCController', [])
                     $rootScope.IsRecy=false;
                     $rootScope.IsUk=false;
 
+    getRandomInt = function(){
+        min=0
+        max=8
+        console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
     $scope.search = function(){
         server_operations.search_brand('\"' + $rootScope.brandName + '\"')
         .success(function(data) {
+            if (data){
             var items= data.data[0].category.split(",")
             for (item in items) {
                 if (items[item].indexOf("recycled")>-1) {
@@ -39,6 +46,12 @@ angular.module('QCController', [])
             $rootScope.showAddOp=false;
             $rootScope.EnvString="width: " + 100*$rootScope.EnvScore/8  + "%;"
             $rootScope.WorkString="width: " + 100*$rootScope.WorkScore/8  + "%;"
+
+            $rootScope.UserScore=getRandomInt()
+            $rootScope.UserString="width: " + 100*$rootScope.UserScore/8  + "%;"
+            console.log($rootScope.UserString)
+            }
+
         })
         .error(function(data) {
     		$rootScope.showAll=false;
