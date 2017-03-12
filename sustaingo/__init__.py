@@ -1,6 +1,6 @@
 from pyramid.config import Configurator
 
-
+#tests
 def main(global_config, **settings):
     config = Configurator(settings=settings)
     config.include('ramses')
