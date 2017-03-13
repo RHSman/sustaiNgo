@@ -144,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="row" ng-click="showDetails($event)">
+                    <div class="row" >
                         <div class="col-md-2">
                         </div>
                         <div class="col-md-2">
@@ -161,7 +161,7 @@
                         </div>
                     </div>
 
-                    <div class="row" ng-click="showDetails($event)">
+                    <div class="row" >
                         <div class="col-md-2">
                         </div>
                         <div class="col-md-2">
@@ -179,7 +179,7 @@
                     </div>
 
 
-                    <div class="row" ng-click="showDetails($event)">
+                    <div class="row" >
                         <div class="col-md-2">
                         </div>
                         <div class="col-md-2">
@@ -224,7 +224,10 @@
             
             
                                             <label for="grade">Comment:</label>
-                                            <input id="grade" type="text" class="form-control text-center" placeholder="Write any related comment" ng-model="formData.comment">
+                                            <input id="grade" type="text" class="form-control text-center" placeholder="Write any related comment" ng-model="$root.formData.comment">
+                            
+                                            <br>
+                                            <button type="button" class="btn btn-info" ng-click="showDetails($event)">Submit</button>
 
                                         </div>
                                 </div>

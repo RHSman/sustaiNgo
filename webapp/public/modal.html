@@ -1,12 +1,12 @@
 <div>
     <script type="text/ng-template" id="myModalContent.html">
     <div class="modal-header">
-        <h3 class="modal-title">Details for brand {{$root.brandName}}</h3>
+        <h3 class="modal-title">Your pinion for brand {{$root.brandName}} has been submitted!</h3>
     </div>
     <div class="modal-body">
-        <canvas id="doughnut" class="chart chart-doughnut"
-        chart-data="data" chart-labels="labels">
-        </canvas> 
+        your comment:
+        <br>
+        {{$root.formData.comment}}
     </div>
     <div class="modal-footer">
         <button class="btn btn-primary" type="button" ng-click="ok()">Dismiss</button>
