@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="meanApp">
+<head>
+  <title>sustaiNgo aaplication</title>
+  <base href="/">
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
+</head>
+<style type="text/css">
+    body { background: #e9e7e0 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+<body ng-view>
+
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+
+
+  <script src="main.js"></script>
+  <script src="common/services/authentication.service.js"></script>
+  <script src="common/services/data.service.js"></script>
+  <script src="common/services/server_operations.js"></script>
+  <script src="common/directives/navigation/navigation.directive.js"></script>
+  <script src="common/directives/navigation/navigation.controller.js"></script>
+  <script src="profile/profile.controller.js"></script>
+  <script src="home/home.controller.js"></script>
+  <script src="common/services/data.service.js"></script>
+
+
+</body>
+</html>
