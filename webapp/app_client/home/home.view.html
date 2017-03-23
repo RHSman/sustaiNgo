@@ -24,15 +24,26 @@
 					<div class="row">
 						<div class="col-md-2">
 						</div>
-						<div class="col-md-6">
-							<input type="text" class="form-control text-center input-sm" placeholder="Brand name" ng-model="$root.brandName" required/>
+						<div class="col-md-6" ng-if="$root.notFound">
+                            Brand not found!
+                            <a href="" ng-if="$root.isLoggedIn">Do you want to add it?</a>
+						</div>
+						<div class="col-md-4" ng-if="$root.notFound">
+						</div>
+                    </div>
+					<div class="row">
+						<div class="col-md-2">
+						</div>
+                        <div class="col-md-6">
+                            <input type="text" class="{{inputTextStyle}}" placeholder="Brand name" ng-model="$root.brandName">
 						</div>
 						<div class="col-md-2">
-							<button type="button" class="glyphicon glyphicon-search" ng-click="search()"/>
+                            <button type="button" class="glyphicon glyphicon-search" ng-click="search()"/>
 						</div>
 						<div class="col-md-2">
 						</div>
 					</div>
+                    <br>
 				</div>
 				<div class="col-md-2">
 				</div>
@@ -142,6 +153,19 @@
 								</div>
 							</div>
 						</div>
+                        <div class="text-left">
+                            <br>
+                            <h1>Sustainable alternatives: </h1>
+                            <br>
+                            <br>
+                            <br>
+                            <h1>Special for you:</h1>
+                            <br>
+                            <br>
+                            <br>
+
+						</div>
+
 					</div>
 					<div class="col-md-2">
 					</div>

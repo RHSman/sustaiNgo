@@ -4,14 +4,19 @@
         .module('meanApp')
         .controller('homeCtrl', homeCtrl);
 
-    function homeCtrl($scope, $rootScope, server_operations) {
+    function homeCtrl($scope, $rootScope, server_operations, $uibModal) {
+        $scope.inputTextStyle="form-control text-center input-sm";
+
         $rootScope.showAll=false;
         $rootScope.showAddOp=false;
+        $rootScope.notFound=false;
+
         $rootScope.EnvScore=0;
         $rootScope.WorkScore=0;
         $rootScope.IsOrgCott=false;
         $rootScope.IsRecy=false;
         $rootScope.IsUk=false;
+
 
         getRandomInt = function(){
             min=0;
@@ -26,6 +31,7 @@
                 .success(function(data) {
                     if (data){ 
                         console.log(data);
+                        $rootScope.notFound=false;
                         var items= data.data[0].category.split(",");
                         for (item in items) {
                             if (items[item].indexOf("recycled")>-1) {
@@ -58,13 +64,31 @@
                     $rootScope.UserString="width: " + 100*$rootScope.UserScore/8  + "%;";
                 })
 				.error(function(data) {
-                    console.log("Brand not found!")
+                    //$scope.inputTextStyle="glyphicon glyphicon-warning-sign form-control-feedback";
+                    $rootScope.notFound=true;
       	      		$rootScope.showAll=false;
       	      		$rootScope.showAddOp=false;
                 });
                 
         };
         
+		$scope.open_add_op = function(){
+			$rootScope.showAddOp=true;
+		};
+
+		$scope.showDetails = function(event){
+			event.preventDefault();
+
+			var modalInstance = $uibModal.open({
+				animation: true,
+				templateUrl: 'myModalContent.html',
+				controller: 'ModalInstanceCtrl',
+				size: "lg",
+			});
+		};
+		$scope.reload = function (){
+			$window.location.reload();
+		};
 
     } //here ends the homeCtrl function
 

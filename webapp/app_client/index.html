@@ -8,12 +8,23 @@
 </head>
 <style type="text/css">
     body { background: #e9e7e0 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+    .wrapper {
+        width:600px;
+        position:relative;
+        margin:auto;
+    }
 </style>
 <body ng-view>
 
 
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+
+
+  <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
+
 
 
   <script src="main.js"></script>
@@ -22,11 +33,14 @@
   <script src="common/services/server_operations.js"></script>
   <script src="common/directives/navigation/navigation.directive.js"></script>
   <script src="common/directives/navigation/navigation.controller.js"></script>
+  <script src="common/services/data.service.js"></script>
+
   <script src="auth/login/login.controller.js"></script>
   <script src="auth/login/logout.controller.js"></script>
+  <script src="auth/register/register.controller.js"></script>
+
   <script src="profile/profile.controller.js"></script>
   <script src="home/home.controller.js"></script>
-  <script src="common/services/data.service.js"></script>
 
 
 </body>
